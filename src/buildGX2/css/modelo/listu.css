@@ -1,0 +1,68 @@
+.task-list-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    max-height: 300px;
+}
+
+.task-list-container h2 {
+    text-align: center;
+
+}
+
+.task-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-y: auto;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+.task-item {
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: auto;
+}
+
+.task-item input[type="checkbox"] {
+    float: right;
+    margin-top: 9px;
+}
+
+.task-item,
+.task-content,
+.check-box,
+.description-display,
+.date-display {
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+
+.button-delet {
+    float: right;
+    margin-right: 10px;
+}
+
+.add-task {
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 18px;
+}
+
+.add-task input[type="text"],
+.add-task input[type="date"] {
+    margin-right: 10px;
+    width: 300px;
+}
+
+.add-task button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+}
